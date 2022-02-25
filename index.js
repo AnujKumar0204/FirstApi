@@ -10,7 +10,7 @@ app.listen(
     () => console.log(`It is alive on http://localhost:${PORT}`)
 )
 
-app.get('/tshirt', (req, res) => {
+app.get('/tshirts', (req, res) => {
     res.status(200).send({
         tshirt: '😂',
         size: 'large'
